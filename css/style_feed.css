@@ -236,7 +236,7 @@ footer{
   text-align: center;
   position:relative;
   top:380;
-
+  max-height: 50px;
 }
 
 
