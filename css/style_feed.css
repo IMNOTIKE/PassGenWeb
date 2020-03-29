@@ -1,0 +1,271 @@
+body{
+  font: 12px/2.0 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin:0;
+  background-color:#bbbbbb;
+}
+
+.container{
+  width:75%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.button_1{
+  height:38px;
+  background:#2b867a;
+  border:none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#ffffff;
+
+}
+
+.dark{
+  padding:25px;
+  background-color:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.dark2{
+  padding:10px;
+  background-color:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+header{
+  background-color:#35424a;
+  color:#ffffff;
+  padding-top:25px;
+  min-height:70px;
+  border-bottom:#2b867a 5px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+header ul{
+  margin:0;
+  padding:0;
+
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+
+}
+header nav{
+  float:right;
+  margin-top:-20px;
+}
+
+header .highlight, header .current a{
+  color:#2b867a;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+#showcase{
+  min-height:200px;
+  background:url('./img/password.jpg') no-repeat 0 -340px;
+  text-align:center;
+  color:#000000;
+}
+
+#showcase h1{
+  margin-top:50px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:25px;
+}
+
+#newsletter {
+  padding:15px;
+  color:#ffffff;
+  background:#35424a;
+}
+
+#newsletter h1{
+float:left;
+
+}
+
+#newsletter form{
+  float:right;
+  margin-top:15px;
+
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+#boxes {
+  margin-top:30px;
+
+}
+
+#boxes .box{
+  float:left;
+  width:30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img{
+  width:100px;
+
+}
+
+#content h1{
+  text-align:center;
+  color:#000000;
+  font-size:25px;
+}
+
+#content p{
+  margin-left:30px;
+  font-size:20px;
+}
+
+section li{
+  margin-left: 40px;
+  font-size:18px;
+  margin-bottom: 12px;
+  font-style: italic;
+  font-weight: bold;
+  color:#2b867a;
+}
+
+section .highlight a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+aside#sidebar{
+  float:right;
+  width:50%;
+  height: 50%;
+  height:auto;
+  margin-top:-17px;
+  margin-right: 3px;
+
+}
+
+aside#but1 .button_1 button{
+  width: 30%;
+}
+
+aside#sidebar2{
+  float:left;
+  width:49%;
+  height: 71%;
+  margin-top:-17px;
+  margin-bottom: 20px;
+  margin-left: 3px;
+}
+
+
+
+
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:100%;
+  padding:5px;
+  background-color: #cccccc;
+}
+
+aside#sidebar2 .quote input, aside#sidebar2 .button_2 button{
+  width:100%;
+  padding:5px;
+  background-color: #cccccc;
+}
+
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+#main h1{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+ul#feedback li{
+  list-style:none;
+  color: #ffffff;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:3px;
+  background-color:#35424a;
+  margin-left: -38px;
+  margin-right: 2px;
+  text-align: center;
+}
+
+footer{
+  padding:25px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#2b867a;
+  text-align: center;
+  position:relative;
+  top:380;
+
+}
+
+
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  header{
+    padding-bottom:20px;
+  }
+  #showcase h1{
+    margin-top:40px;
+  }
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
